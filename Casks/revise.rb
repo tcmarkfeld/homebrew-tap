@@ -1,6 +1,6 @@
 cask "revise" do
-  version "0.1.0"
-  sha256 "56a2afb0bd6a9ea6d6cbde47c4403717070717797d87acdb096043f48d08feb8"
+  version "0.2.0"
+  sha256 "6d71383c7ed8b0221b43f67bc06f9971ccbae69f5ff62471e1a388afe7bdad4b"
 
   url "https://github.com/tcmarkfeld/revise-pdf/releases/download/v#{version}/Revise.dmg"
   name "Revise"
