@@ -1,11 +1,13 @@
 cask "revise" do
-  version "0.2.0"
-  sha256 "6d71383c7ed8b0221b43f67bc06f9971ccbae69f5ff62471e1a388afe7bdad4b"
+  version "0.2.1"
+  sha256 "72d0085dc18aa6a590d4c9328e8f06e8de3d0a5cb882bb44eddb67b99067011c"
 
   url "https://github.com/tcmarkfeld/revise-pdf/releases/download/v#{version}/Revise.dmg"
   name "Revise"
   desc "Edit any PDF like a document"
   homepage "https://github.com/tcmarkfeld/revise-pdf"
+
+  auto_updates true
 
   depends_on arch: :arm64
 
